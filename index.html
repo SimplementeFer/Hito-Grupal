@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <title>WEB GRUPAL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+   
+    
+
+
+   
+    
+
+    
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script>
+      // When the user scrolls down 20px from the top of the document, slide down the navbar
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("Top_line_scroll").style.top = "0px";
+        } else {
+          document.getElementById("Top_line_scroll").style.top = "-70px";
+        }
+      }
+    </script> 
+    <script src="https://kit.fontawesome.com/9d30e92002.js" crossorigin="anonymous"></script>
+
+    <script>
+      function cambiar1() {
+        document.getElementById('imagenactiva').src="https://wallpaperaccess.com/full/1631875.jpg";
+         }
+    </script>
+    <script>
+      function cambiar2() {
+        document.getElementById('imagenactiva').src="https://miro.medium.com/max/1400/1*Od-UrquQOrcwEkpDwwkCiQ.png";
+      }
+    </script>
+    <script>
+      function cambiar3() {
+        document.getElementById('imagenactiva').src="https://miro.medium.com/max/1400/1*7OPxDMcztUTzd9kzDdLzqw.png";
+      } 
+    </script>
+
+
+      </head>
+      <body>
+        <nav id="Top_line_scroll">
+
+          <div id="dch">
+          
+          
+        
+              <ul>
+                <li><a href="#origen">ORÍGENES</a></li>
+                <li><a href="#estandares">ESTÁNDARES</a></li>
+                <li><a href="#title-76u3_1">CLASIFICACIÓN</a></li>
+                <li><a href="#origenes">ORÍGENES CSS Y SCSS</a></li>
+                <li><a href="#VS">CSS VS SCSS</a></li>
+              </ul>
+      
+            </div> 
+      
+    
+              
+      </nav>
+<nav id="Top_line">
+
+    <div id="dch">
+    
+    
+  
+        <ul>
+          <li><a href="#origen">ORÍGENES</a></li>
+          <li><a href="#estandares">ESTÁNDARES</a></li>
+          <li><a href="#title-76u3_1">CLASIFICACIÓN</a></li>
+          <li><a href="#origenes">ORÍGENES CSS Y SCSS</a></li>
+          <li><a href="#VS">CSS VS SCSS</a></li>
+        </ul>
+
+      </div> 
+
+     
+        
+</nav>
+
+<div id="Top_line2"></div>
+ 
+
+    <div id="container2">
+
+    </div>
+
+  
+ 
+
+    <div  class="Inicio">
+    <div class="carousel-inner">
+
+
+      <div class="carousel-item active">
+        <img src="https://miro.medium.com/max/1400/1*7OPxDMcztUTzd9kzDdLzqw.png" class="alinearimg1" alt="..." id="imagenactiva">
+
+        <div class="caption1">
+            <h1>LENGUAJES DE MARCAS</h1>
+          
+
+          <div href="" class="button-group">
+
+            <a class="banner-button" onclick="cambiar1()">
+            <div class="text">HTML&nbsp;</div>
+            </a>
+
+
+            <a  class="banner-button" onclick="cambiar3()">
+              <div class="text">SCSS&nbsp;</div>
+            </a>
+
+            <a  class="banner-button" onclick="cambiar2()">
+              <div class="text">CSS&nbsp;</div>
+            </a>
+
+            
+
+          </div>
+
+          
+      
+        </div>
+
+    
+  </div>
+
+  </div>
+
+<div class="cont">
+
+  <div class="row">
+
+    <div class="col">
+
+      <div id="down2">
+
+
+
+        <div class="caption2" id="origen">
+          
+          <h1>ORÍGENES DE LOS LENGUAJES DE MARCAS</h1>
+          <p>Tim Berners Lee es el nombre que se nos viene a la cabeza cuando pensamos en el inicio de los lenguajes de marcas.<br> <br>
+            Comenzamos nuestra historia remontándonos hasta 1980 cuando un investigador del CERN, el físico Tim Berners Lee, propone un nuevo método para compartir documentos.
+            Él método propuesto se basaba en un sistema de hipertexto (tal como vemos en las siglas de HTML). Berners fue desarrollando su proyecto durante años hasta que lo presentó ante una convocatoria que solicitaba un sistema de hipertexto que pudiera utilizarse en  internet. Acabó presentando su trabajo bajo el nombre de WorldWideWeb (W3), todo junto a un ingeniero de sistemas llamado Robert Cailliau. Tras convertirse en la propuesta elegida, en 1991 ambos publican en el primer servidor web  <a id="html_tags" href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html">HTML TAGS</a> (el enlace es el documento original), un documento formal con las primeras nociones de html de las que existe registro . <br>
+            <br>
+            Desde el 80 hasta el 91 hay 11 años. ¿Por qué Berners tarda tanto en desarrollar el HTML si el término hipertexto se conoce desde los 60?<br><br>
+            <i>“Por hipertexto entiendo escritura no secuencial. La escritura tradicional es secuencial por dos razones. Primero, se deriva del discurso hablado, que es secuencial, y segundo, porque los libros están escritos para leerse de forma secuencial. Sin embargo, las estructuras de las ideas no son lineales. Están interrelacionadas en múltiples direcciones. Y cuando escribimos siempre tratamos de relacionar las cosas de forma no secuencial.”</i><br><br> —Definición de hipertexto de Theodor H. Nelson— <br>
+            <br>
+            Pues la cuestión es que Berners estuvo ocupado entrando y saliendo del CERN. En 1980 hace su propuesta pero también desarrolla un programa llamado Enquire (un programa que comparte ideas con su futuro proyecto).
+            Berners abandona el CERN para regresar en el 84 y continúa la historia de forma paralela al desarrollo de internet hasta 1991 cuando ocurre lo ya mencionado anteriormente.
+            </p>
+        </div>
+        
+
+
+      </div>
+
+    </div>
+        
+  </div>
+
+  <div class="row">
+
+    <div class="col">
+
+      <div id="down3">
+
+        <div class="caption2" id="estandares">
+          
+          <h1>ESTÁNDARES Y ORGANISMOS OFICIALES</h1>
+          <p>En 1994 Tim Berners Lee fundó el Consorcio WWW con sede en el Instituto Tecnológico de Massachusetts. Conocido como W3C ( World Wide Web Consortium) actualmente cuenta con la ayuda del ERCIM en Europa y la Universidad de Keiō en Asia aunque tiene oficinas repartidas por todo el mundo.<br><br>
+            El World Wide Web Consortium es una asociación dirigida por Berners que regula la red informática mundial estableciendo estándares y recomendaciones que aseguran el crecimiento de la red a nivel global.
+            Tenemos 4 fases de madurez por los que pasa toda nueva norma o recomendación del W3C antes de entrar en vigor como estándar oficial: </p>
+            <p>Borrador de trabajo (WD): La primera forma de un estándar que se hace pública. Acepta comentarios para retroalimentarse de las opiniones de casi todo el mundo pero no está asegurado actuar en base a todas esas propuestas de la gente.</p>
+            <p>Recomendación candidata (CR): Es una versión algo más madura que el WD. Se realiza solo cuando existe una convicción certera de que la norma cumple propuesta cumple correctamente con el objetivo indicado.</p>
+            <p>Recomendación propuesta (PR): Versión posterior a la recomendación candidata, se clasifica como recomendación propuesta cuando se presenta finalmente al Consejo Asesor del W3C para su aprobación.</p>
+            <p>Recomendación de W3C (REC): Última etapa, desde aquí ya se considera que la norma es respaldada por el W3C.</p>
+            <p>Después se pueden modificar o ampliar las recomendaciones  siguiendo un proceso que varía según la complejidad y el nivel en el que se encuentre la propia recomendación. Esto se hace añadiendo una nueva edición o en su defecto un nivel adicional a la recomendación.
+            <p>Cuando una especificación se alarga demasiado se divide en diferentes partes para que cada una tome su propio ritmo. Las ediciones de cada parte se conocen como niveles y se ordenan por el primer número entero en el título (CSS3  está en el nivel 3). Las revisiones posteriores en cada nivel se indican mediante un número entero después de un punto decimal (CSS2.1  está en la revisión 1 del nivel 2).   </p>
+            <p>ISOC o Internet Society es un organismo no gubernamental que se dedica en su totalidad al desarrollo mundial de Internet. Lo mencionamos por encima diciendo sus principales órganos. Tenemos el IAB, Internet Architecture Board, que se enfoca en la supervisión y aprobación de normas. Luego tenemos el IETF, Internet Engineering Task Force, que se centra en la especificación de estándares técnicos. Por otro lado tenemos el IESG, Internet Engineering Steering Group, que se encarga de la coordinación. Y por último nos queda IANA, Internet Assigned Number Authority cuya función es la asignación de recursos.</p>
+            </p>
+          </div>
+        
+        
+        </div>
+
+
+      </div>
+
+    </div>
+        
+  </div>
+</div>
+     
+
+
+
+</div>
+
+
+<div id="carouselExampleFade2" class="carousel slide carousel-fade alinearimg">
+
+
+  
+  
+  <div class="carousel-inner">
+
+
+    <div class="carousel-item active">
+      <video autoplay muted loop width="100%">
+        <source src="img/video html.mp4">
+
+      </video>
+
+      <div class="caption3">
+          
+        <h1>PROGRAMACION EN HTML</h1>
+    
+        <div class="button-group-3">
+    
+          <a href="https://www.w3schools.com/html/default.asp" class="banner-button-3">
+            <div class="text">Leer más&nbsp;<div class="icon fa fa-angle-right"></div></div>
+          </a>
+        </div>
+      
+      
+      
+    </div>
+
+  </div>
+
+
+    <div class="carousel-item">
+      
+      
+      <video autoplay muted loop width="100%">
+        <source src="img/video css.mp4">
+
+      </video>
+
+      <div class="caption3">
+          
+        <h1>PROGRAMACION EN CSS</h1>
+    
+        <div class="button-group-3">
+
+          <a href="https://www.w3schools.com/css/default.asp" class="banner-button-3">
+            <div class="text">Leer más&nbsp;<div class="icon fa fa-angle-right"></div></div>
+          </a>
+        </div>
+      
+      
+      
+    </div>
+    </div>
+
+
+
+    <div class="carousel-item">
+      
+      
+      <video autoplay muted loop width="100%">
+        <source src="img/video scss.mp4">
+
+      </video>
+
+      <div class="caption3">
+          
+        <h1>PROGRAMACION EN SCSS</h1>
+    
+        <div class="button-group-3">
+    
+          <a href="https://sass-lang.com/documentation/syntax" class="banner-button-3">
+            <div class="text">Leer más&nbsp;<div class="icon fa fa-angle-right"></div></div>
+          </a>
+        </div>
+      
+      
+      
+    </div>
+    </div>
+    
+
+
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+
+
+<div class="container text-center">
+ <H1 id="title-76u3_1">CLASIFICACIÓN DE LOS LENGUAJES DE MARCAS</H1>
+ <h2 class="tipos">Tipos de marcado</h2>
+</div>
+<div id="main-container">
+
+  <table>
+    <thead>
+      <tr>
+        <th>Tipo</th><th>Descripción</th><th>Ejemplo</th>
+      </tr>
+    </thead>
+
+    <tr>
+      <td>Marcado de presentación</td><td>Es el formato del texto, como se presentará el documento, están ocultas en el usuario</td><td>Microsoft Word</td>
+    </tr>
+    <tr>
+      <td>Marcado de  Procedimiento</td><td>También indican formato pero estas marcas que lo indican permite procesarlas (hacer acciones sobre ellas como editarlas) dependiendo de la etiqueta.</td><td>LaTeX, HTML</td>
+    </tr>
+    <tr>
+      <td>Marcado descriptivo o semántico</td><td>Usan las etiquetas o marcas para describir fragmentos de texto</td><td> XML</td>
+    </tr>
+  </table>
+</div>
+
+<div class="container text-center">
+  <h2 class="tipos">Tipos de lenguajes descriptivos</h2>
+ </div>
+ <div id="main-container">
+ 
+   <table>
+     <thead>
+       <tr>
+         <th>Area</th><th>Lenguaje</th><th>Descripción/Ejemplo</th>
+       </tr>
+     </thead>
+ 
+     <tr>
+       <td>Matemática</td><td>Lenguaje: MathML y OpenMath</td><td>Se usan para expresar notación matemática</td>
+     </tr>
+     <tr>
+       <td>Geomática</td><td>Geography ML</td><td>Se usan para almacenar, transportar y modelar información geográfica</td>
+     </tr>
+     <tr>
+       <td>Aeronáutica</td><td>Spacecraft ML</td><td></td>
+     </tr>
+     <tr>
+      <td>Multimedia</td><td>Lenguaje: Synchronized Multimedia Integration Language</td><td>Sirve para introducir audio, video, imágenes, texto o cualquier otro contenido multimedia</td>
+    </tr>
+    <tr>
+      <td>Voz</td><td>Lenguaje: VoiceXML</td><td></td>
+    </tr>
+    <tr>
+      <td>Mensajería instantánea</td><td>Ejemplo: XMPP</td><td>Gracias al protocolo XMPP se establece una plataforma la cual sirve para mensajería instantánea</td>
+    </tr>
+    <tr>
+      <td>Gráficos 3D</td><td>Ejemplo: VRML/X3D, STEP</td><td>Un formato de archivo normalizado El cual se utiliza para representar escenas u objetos interactivos tridimensionales</td>
+    </tr>
+   </table>
+ </div>
+ 
+ <div class="cont">
+
+  <div class="row">
+
+    <div class="col">
+
+      <div id="down2">
+
+
+
+        <div class="caption2" id="origenes">
+          
+          <h1>ORÍGENES DEL CSS</h1>
+          Las hojas de estilos aparecieron poco después que el lenguaje de etiquetas SGML, alrededor del año 1970, se creó ya que había una necesidad de crear un mecanismo que permitiera darle estilos a documentos electrónicos. Se creó a partir del boom de internet y el lenguaje de html, al principio era complicado por la incompatibilidad de los navegadores y la falta de un estándar.
+          De aquí nace el W3C el cual es el encargado de crear todos los estandartes relacionados con la web, propusieron dos estandartes para el lenguaje html, el CHSS (Cascading HTML Style Sheets) y el SSP  (Stream-based Style Sheet Proposal).
+          Entre 1994 y 1995 Lie y Bos se unieron para definir un nuevo lenguaje que tomaba lo mejor de cada uno y lo llamaron css, En 1995 W3C apostó por desarrollar y apostar por css y lo añadió a su trabajo de html, en 1996 sacó la primera recomendación oficial, en 1997 W3C separa un grupo de css del de html, en 1998 se publica la segunda recomendación oficial conocida como “CSS nivel 2” se publicó al tiempo una última recomendación conocida como “CSS nivel 3”. CSS y los navegadores no se llevan muy bien ya que no lo soportan al 100%, el primero que lo hizo fue internet explorer 5 y actualmente ninguno tiene soporte completo para CSS 2.1
+
+        </div>
+        
+
+
+      </div>
+
+    </div>
+
+    <div class="col">
+
+      <div id="down2">
+
+
+
+        <div class="caption2" id="origenes">
+          
+          <h1>ORÍGENES DE SCSS</h1>
+          Scss o Sass es un lenguaje de hoja de estilos en cascada inicialmente diseñado por Hampton Catlin y desarrollado por Natalie Weizenbaum, fue diseñado para sustituir al css. Después de sacar varias versiones iniciales desarrollaron un nuevo lenguaje llamado “SassScript” el cual se basaba en el Sass. Es en sí un lenguaje que se traduce a css.
+        </div>
+        
+
+
+      </div>
+
+    </div>
+    
+        
+  </div>
+  <div class="container text-center" id="VS">
+    <H1 class="cssvsscss" id="title-76u3">CSS VS SCSS</H1>
+   </div>
+   <div id="main-container">
+   
+     <table>
+       <thead>
+         <tr>
+           <th><b>Campos</b></th><th><b>Css</b></th><th><b>Scss</b></th>
+         </tr>
+       </thead>
+   
+       <tr>
+         <td><b>Sintaxis y declaración</b></td><td>se puede declarar en cualquier parte de nuestro archivo</td><td> deben ir en bloque aparte de que en css se debe usar la función “var()” para poder usarlas</td>
+       </tr>
+       <tr>
+         <td><b>Scope</b></td><td>se hace por medio de DOM, las variables pueden estar separadas</td><td>maneja un scope por bloque, las variables deben estar agrupadas en una gran variable</td>
+       </tr>
+       <tr>
+         <td><b>Interpolación</b></td><td>solo sirven para almacenar valores, no se pueden interpretar</td><td>si se pueden interpretar, el uso más común es el de crear selectores con variables.</td>
+       </tr>
+       <tr>
+        <td><b>Operaciones</b></td><td>se deben usar la función “calc()”</td><td>se hacen como en otros lenguajes de programación mientras</td>
+      </tr>
+      <tr>
+        <td><b>Redefinir valor de variable</b></td><td>sí pueden gracias a que se manejan por DOM</td><td>no se pueden redefinir en ámbito de scope si su valor no es utilizado</td>
+      </tr>
+      <tr>
+        <td><b>Compilación</b></td><td>siempre estan accesibles y no se borran</td><td>al ser un lenguaje que devuelve css plano todo el codigo Scss desaparece incluidas variables</td>
+      </tr>
+     </table>
+   </div>
+  
+</div>
+
+
+<footer>
+  <div class="footer">
+     <div class="container">
+        <div class="row">
+           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+        
+              <ul class="social_icon">
+                 <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                 <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                 <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                 <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              </ul>
+           </div>
+           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <h3>Acerca de</h3>
+              <ul class="about_us">
+                <li>Objetivo social</li><li>Información adicional</li>
+              </ul>
+           </div>
+           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <h3>Contacta con nosotros</h3>
+              <ul class="conta">
+                 <li>Aprende@nuestraempresa.es </li><li>696664501</li> <li>Avenida de la Paz nº 9, Griñón, 28971, Madrid</li> 
+              </ul>
+           </div>
+           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <form class="bottom_form">
+                 <h3>Newsletter</h3>
+                 <input class="enter" placeholder="Introduce tu email" type="text" name="Introduce tu email">
+                 <button class="sub_btn">subscribete</button>
+              </form>
+           </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                
+                 <p>© 2022 All Rights Reserved. Designed by Sabin Maniuc, Pablo Vara, Roberto Anero and Fernando Dorado.</p>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
+
+
+
+
